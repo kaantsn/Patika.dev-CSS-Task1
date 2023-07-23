@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+h2 {
+font-style: italic;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+.car-list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+}
+
+.car-brand {
+    cursor: pointer;
+}
+
+figure {
+    margin: 0;
+}
+
+.car-info {
+    display: none;
+    margin-top: 10px;
+}
+
+.car-brand:hover .car-info {
+    display: block;
+}
